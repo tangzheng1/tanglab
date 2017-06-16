@@ -46,16 +46,18 @@
 <p>miLineage package has functions that implement the distribution-free association tests for microbiome data described in Tang et al. (2016). These functions allow users to: (a) perform robust association tests at any taxonomic level for microbiome data that exhibit arbitrary inter-taxa correlation; (b) localize the covariate-associated lineages on the taxonomic tree; and (c) assess the overall association of the microbial community. Our framework does not make any distributional assumptions on the microbiome data; it allows for the adjustment of confounding variables and accommodates excessive zero observations; and it incorporates taxonomic information. Simulation studies and real data analyses demonstrate substantial power gain over competing methods. </p>
 <p><strong><font size="5">References:</font></strong><a href="https://academic.oup.com//bioinformatics/article/33/9/1278/2729907/A-general-framework-for-association-analysis-of?guestAccessKey=6c701407-b46c-49b1-a4d3-852545eeeead">Tang ZZ <i>et al.</i> 2016b </a>.</p>
 <footer class="controls">
-<a href="software/miLineage_v1.0" class="button"><font style="text-transform: none;"> Download miLineage </font></a>
+<a href="software/miLineage_v1.0" class="button"><font style="text-transform: none;"> Download miLineage v1.0 </font></a>
 </footer>
 
-<p>miProfile: A C program for analyzing&nbsp;microbial community composition</p>
+<p><strong><font size="5">miProfile: A C program for analyzing&nbsp;microbial community composition</font></strong></p>
+<p> miProfile is a command-line program written in the C language to implement the new distance-based method described in Tang et al. (2016) for performing association test for microbial community composition with any covariates of interest (e.g., environmental factors, disease status, clinical outcomes, treatment groups). miProfile can construct all commonly-used distances, including unweighted UniFrac, weighted UniFrac, generalized UniFrac, presence-weighted UniFrac, Bray-Curtis distance, and Jaccard distance. Users can request any combination of these distances. miProfile produces the p-value for each of the requested distances and the unified p-value by combining all of the distances. The operating interface is simple and can directly input the .biom and .tre files. The OTU abundance table and the distance matrices can be generated as output and re-used in subsequent runs. </p>
+<p><strong><font size="5">References:</font></strong><a href="https://academic.oup.com/bioinformatics/article/32/17/2618/2450751/PERMANOVA-S-association-test-for-microbial?searchresult=1">Tang ZZ <i>et al.</i> 2016a </a>.</p>
+<footer class="controls">
+<a href="software/miProfile_v1.0" class="button"><font style="text-transform: none;"> Download miProfile v1.0 </font></a>
+</footer>
 
-<p>https://medschool.vanderbilt.edu/tang-lab/software/miProfile</p>
 
-<p>citation:&nbsp;Tang ZZ,&nbsp;Chen G,&nbsp;Alekseyenko&nbsp;AV&nbsp;(2016). PERMANOVA-S:&nbsp;Association test for microbial community composition that accommodates confounders and multiple distances,&nbsp;Bioinformatics, btw311.</p>
 
-<p>&nbsp;</p>
 
 <p>PreMeta: A C program to&nbsp;facilitate the exchange of information between four software packages for meta-analysis of rare-variant associations: MASS, RAREMETAL, MetaSKAT, and seqMeta.</p>
 
